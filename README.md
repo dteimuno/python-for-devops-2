@@ -1,5 +1,6 @@
 #  DevOps Project: EC2 and Apache Deployment with Python & Fabric
 ![image](https://github.com/user-attachments/assets/e52073e7-c4d7-4734-aca5-0c90b4436d84)
+![image](https://github.com/user-attachments/assets/e7335435-f010-4b31-ba14-cd3acc4f7eda)
 
 
 This project automates the provisioning and deployment of a basic Apache web application using Python-based DevOps tools. It showcases the integration of AWS (via Boto3), SSH-based automation (via Fabric), and infrastructure scripting to streamline web server deployment.
