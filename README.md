@@ -70,11 +70,7 @@ Provision an EC2 instance, upload and install Apache2 using a shell script, and 
 - Integrate with CI/CD (e.g., GitHub Actions or Jenkins)
 - Add error handling and logging
 
----
 
-## 📷 Example
-
-![Architecture](https://user-images.githubusercontent.com/your-aws-diagram-placeholder.png)
 
 ---
 
