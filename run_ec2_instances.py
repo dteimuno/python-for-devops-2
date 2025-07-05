@@ -13,8 +13,8 @@ def create_ec2_instance(image_id, instance_type, count):
         MinCount=count,
         MaxCount=count,
         Monitoring={"Enabled": True},
-        SecurityGroupIds=["sg-0559949982e91dad7"],
-        SubnetId="subnet-08b54624ac77ea0bf",
+        SecurityGroupIds=["<put-your-here>"],
+        SubnetId="<put-yours-here>",
         TagSpecifications=[
             {
                 "ResourceType": "instance",       
