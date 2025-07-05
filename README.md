@@ -1,4 +1,6 @@
 #  DevOps Project: EC2 and Apache Deployment with Python & Fabric
+![image](https://github.com/user-attachments/assets/e52073e7-c4d7-4734-aca5-0c90b4436d84)
+
 
 This project automates the provisioning and deployment of a basic Apache web application using Python-based DevOps tools. It showcases the integration of AWS (via Boto3), SSH-based automation (via Fabric), and infrastructure scripting to streamline web server deployment.
 
@@ -11,25 +13,32 @@ Provision an EC2 instance, upload and install Apache2 using a shell script, and 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 - `run_ec2_instances.py`  
   Automates the creation of an EC2 instance using Boto3 with custom tags, security group, subnet, and monitoring options.
+  <img width="1092" alt="Screenshot 2025-07-04 at 10 43 54 PM" src="https://github.com/user-attachments/assets/1f7563bd-03da-409d-9e29-b693e7ed7d6b" />
+
 
 - `create_s3_bucket.py`  
   Creates a private S3 bucket using Boto3 for optional static file storage or artifact management.
+  <img width="1071" alt="Screenshot 2025-07-04 at 11 11 16 PM" src="https://github.com/user-attachments/assets/51e59597-26a2-4c5a-a1ae-c1543d62ec9c" />
+
 
 - `ssh_into_instance.py`  
   Uses the Fabric library to:
   - SSH into the EC2 instance via PEM key
   - Upload the Apache setup script
   - Make the script executable and run it with `sudo`
+  
 
 - `apache.sh`  
   A Bash script executed remotely to:
   - Install Apache2
   - Enable and start the service
   - Display the server’s public IP address
+  <img width="1332" alt="image" src="https://github.com/user-attachments/assets/725d12af-79e4-4523-b6d7-f160bc3982ba" />
+
 
 ---
 
